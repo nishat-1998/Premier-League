@@ -21,14 +21,15 @@ const Home= () => {
      },[])
    
     return (
-        <div>
-        <h1> Team Loaded:{teams.length}</h1>
-    <ul> {
+        <div className="container mt-5">
+        <div className="row">
+
+     {
         
         teams.map(team=> <Team team={team} key={team.alpha3Code} ></Team>)
 
         }
-        </ul>
+        </div>
         </div>
     );
 };

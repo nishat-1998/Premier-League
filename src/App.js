@@ -15,7 +15,8 @@ import TeamDetails from './components/TeamDetails/TeamDetails';
 //import Team from './components/Team/Team';
 
 function App() {
-  return (
+  return ( 
+    
     <Router>
       <Header/>
       <Switch>
@@ -33,6 +34,7 @@ function App() {
           </Route>
          </Switch>
        </Router>
+       
     
   );
 }
